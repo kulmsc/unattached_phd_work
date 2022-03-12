@@ -1,0 +1,1 @@
+dx run swiss-army-knife -iin="Bulk/Exome sequences/PLINK_files/ukb23155_c22_b0_v1.bed" -iin="Bulk/Exome sequences/PLINK_files/ukb23155_c22_b0_v1.bim" -iin="Bulk/Exome sequences/PLINK_files/ukb23155_c22_b0_v1.fam" -iin="id.22" -icmd="plink --bfile ukb23155_c22_b0_v1 --extract id.22 --recode A"
